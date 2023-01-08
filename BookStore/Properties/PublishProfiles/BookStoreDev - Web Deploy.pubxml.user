@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEHpKZvzqF02/8DkvYtHN/AAAAAACAAAAAAAQZgAAAAEAACAAAAC6ySaKQ9VV210RFXajZhmOedDIACA0HW/apFwV18VjpwAAAAAOgAAAAAIAACAAAAB8h6EavUf3CjZW3+O1djeRK5td4438En+K90tXzp2q84AAAAA1VfEwOFVMohlGuCwxZIijC1jhuuK84G4WDsYHbwUAhOFLzMojEkAaGKGOZD7/FYA9QYR0zgl7cloe50LChYavDNTVGrFme0YMuuylRD5cEWpwlHNx2vudrXmNGnDmG7m2nJzyG9FvJq2HUE/3lxdydy6CnW+9715juzyJ5GUSZ0AAAACMpMUs9EeEwZugzioEuHV4kh2LX9faBrUud5s4/xCDYTyWCEnnwyyq2AbL9qjDBBiJw9IxAz4zCg2bDy3QcZ7/</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:bookstoreserver.database.windows.net,1433%3bInitial Catalog=BookStore_db%3bUser Id=bookstore%40bookstoreserver%3bPassword=Admin123%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

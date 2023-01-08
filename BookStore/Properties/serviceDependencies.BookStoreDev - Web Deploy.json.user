@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-01-24T03:24:27.210604Z"
+    }
+  },
+  "parameters": {
+    "BookStoreDev.resourceName": {
+      "Name": "BookStoreDev.resourceName",
+      "Type": null,
+      "Value": "BookStoreDev"
+    },
+    "BookStoreDev.resourceGroupLocation": {
+      "Name": "BookStoreDev.resourceGroupLocation",
+      "Type": null,
+      "Value": "southcentralus"
+    },
+    "BookStoreDev.resourceGroupName": {
+      "Name": "BookStoreDev.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "BookStore20210124032844ResourceGroup"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "08ef387d-375f-429c-8b17-4d6c89b72a27"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "BookStore20210124032844ResourceGroup"
+    },
+    "BookStoreDev.subscriptionId": {
+      "Name": "BookStoreDev.subscriptionId",
+      "Type": "subscription",
+      "Value": "08ef387d-375f-429c-8b17-4d6c89b72a27"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "08ef387d-375f-429c-8b17-4d6c89b72a27"
+    }
+  }
+}
